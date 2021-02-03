@@ -1,6 +1,6 @@
 require('dotenv').config();
 import { MongoClient } from 'mongodb';
-import ItemType from '../types/item';
+import {ItemType} from '../types/item';
 
 const dbName = 'rs-clone-todoist';
 

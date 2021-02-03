@@ -1,5 +1,5 @@
 import { promises as fsp } from 'fs';
-import ItemType from '../types/item';
+import { ItemType } from '../types/item';
 
 const fileName = 'items.json';
 

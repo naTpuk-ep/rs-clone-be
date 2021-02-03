@@ -1,7 +1,14 @@
 
-type ItemType = {
+export type ItemType = {
 	id: string;
-	data: any;
+	title: string;
+	completed: boolean;
+	userId: string;
+	date: string;
 }
 
-export default ItemType;
+export type Session = {
+	userId: string;
+	expiresAt: string;
+	token: string;
+}
