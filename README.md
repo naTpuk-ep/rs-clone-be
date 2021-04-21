@@ -3,4 +3,6 @@
 to run the app:
 
 npm i  
-npm run dev
+npm run dev  
+
+deploy: https://rs-clone-be.herokuapp.com/
